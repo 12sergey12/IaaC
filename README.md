@@ -46,25 +46,25 @@ Pull, т.к. отсутствует единая точка отказа и хр
 
 ###### Установите на личный компьютер:
 
->VirtualBox,
->Vagrant,
->Terraform,
->Ansible.
+VirtualBox,
+Vagrant,
+Terraform,
+Ansible.
 
 ###### Приложите вывод команд установленных версий каждой из программ, оформленный в Markdown.
 
->root@baranovsa:/home/baranovsa# vboxmanage --version
->6.1.42r155177
->root@baranovsa:/home/baranovsa# vagrant --version
->Vagrant 2.3.4
->root@baranovsa:/home/baranovsa# ansible --version
->ansible 2.10.8
->  config file = None
->  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
->  ansible python module location = /usr/lib/python3/dist-packages/ansible
->  executable location = /usr/bin/ansible
->  python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]
->root@baranovsa:/home/baranovsa#
+<root@baranovsa:/home/baranovsa# vboxmanage --version>
+<6.1.42r155177>
+<root@baranovsa:/home/baranovsa# vagrant --version>
+<Vagrant 2.3.4>
+<root@baranovsa:/home/baranovsa# ansible --version>
+<ansible 2.10.8>
+<  config file = None>
+<  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']>
+<  ansible python module location = /usr/lib/python3/dist-packages/ansible>
+<  executable location = /usr/bin/ansible>
+<  python version = 3.9.2 (default, Feb 28 2021, 17:03:44) [GCC 10.2.1 20210110]>
+<root@baranovsa:/home/baranovsa#>
 
 
 ---
