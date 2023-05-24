@@ -87,13 +87,18 @@ root@baranovsa:/home/baranovsa#
 
 Создайте виртуальную машину. Зайдите внутрь ВМ, убедитесь, что Docker установлен с помощью команды docker ps,
 
->Vagrantfile из лекции и код ansible находятся в папке.
->Примечание. Если Vagrant выдаёт ошибку:
->URL: ["https://vagrantcloud.com/bento/ubuntu-20.04"] 
->Error: The requested URL returned error: 404:
+Vagrantfile из лекции и код ansible находятся в папке.
 
->выполните следующие действия:
->Скачайте с сайта файл-образ "bento/ubuntu-20.04".
->Добавьте его в список образов Vagrant: "vagrant box add bento/ubuntu-20.04 <путь к файлу>".
+Примечание. Если Vagrant выдаёт ошибку:
+
+URL: ["https://vagrantcloud.com/bento/ubuntu-20.04"] 
+
+Error: The requested URL returned error: 404:
+
+выполните следующие действия:
+
+Скачайте с сайта файл-образ "bento/ubuntu-20.04".
+
+Добавьте его в список образов Vagrant: "vagrant box add bento/ubuntu-20.04 <путь к файлу>".
 
 ![monitoring](https://github.com/12sergey12/IaaC/blob/main/images/%D0%BE%D1%82%D0%B2%D0%B5%D1%824%20%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5.png)
